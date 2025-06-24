@@ -9467,7 +9467,7 @@ p {
 }
 
 .bg_section{
-  background-image: url(../images/wisecap-bg.jpg) !important;
+  background-image: url(../images/banner/wisecap-bg.jpg) !important;
 }
 
 .contact-us-area.contact-us-page .contact-us-box {
@@ -9482,7 +9482,35 @@ p {
   border-radius: 3px !important;
   height: 70vh !important;
  }
+
+ .footer-info-lists li{
+  list-style: none !important;
+  color: #000 !important;
+ }
+
+ .footer-top .footer-social ul li a:hover {
+    background: #2aa38c !important;
+    color: #fff;
+}
  
+
+.footer-top.footer-top-5 .footer-social ul li a::before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background: #ffab4a !important;
+      z-index: -1;
+      opacity: 0;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+
+
 @media screen and (max-width: 768px) {
   .our-careers-sec{
     width: 100% !important;
